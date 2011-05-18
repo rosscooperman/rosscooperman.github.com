@@ -94,6 +94,29 @@ p, .section, .subsection {
   }
 }
 
+// styles for iPad (and possibly other tablet-like devices)
+@media only screen and (max-device-width: 1024px) {
+  body {
+    margin: 0;
+    font-size: 1.25em;
+  }
+
+	#page {
+	  width: 100%;
+
+	  #banner {
+	    background-image: url(/images/banner_ipad.png);
+	    width: 375px;
+	    left: -1px;
+	    top: 0.4em;
+	    padding-left: 0.333em;
+	  }
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+}
+
 #resume {
   position: relative;
   padding-left: 11em;
