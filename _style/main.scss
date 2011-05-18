@@ -1,0 +1,155 @@
+$blue: #0080b3;
+$grey: #dcdcdc;
+
+html {
+  font-family: 'CartoGothic',Helvetica,Sans-serif;
+  background-color: white;
+  color: black;
+}
+
+body {
+  font-size: 0.9375em;
+  margin-bottom: 2em;
+}
+
+a {
+  color: $blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'MuseoSlab',Helvetica,Sans-serif;
+  color: $blue;
+  font-size: 1.467em;
+  font-weight: normal;
+  text-shadow: 0 1px 0 white;
+}
+
+h2 {
+  font-size: 1.133em;
+  margin: 0.333em 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+h3, h4 {
+  font-size: 0.867em;
+  font-weight: normal;
+  font-style: italic;
+  color: $blue;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+p, .section, .subsection {
+  margin-bottom: 1em;
+  line-height: 1.333em;
+}
+
+#page {
+  position: relative;
+  background: #f1f1f1;
+  border: 1px solid #dcdcdc;
+  border-top-width: 0;
+  width: 800px;
+  margin: 0 auto;
+  padding: 8.667em 1.667em 1.667em 1.667em;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  #banner {
+    position: absolute;
+    left: -39px;
+    top: 10px;
+    width: 300px;
+    height: 62px;
+    background: transparent url(/images/banner.png) no-repeat;
+    font-family: 'MuseoSlab',Helvetica,Sans-serif;
+    font-size: 1.667em;
+    color: white;
+    padding: 0.333em 0 0 2em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  #contact {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    opacity: 0.25;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
+#resume {
+  position: relative;
+  padding-left: 11em;
+
+  h1 {
+    position: absolute;
+    left: 0;
+    width: 5.333em;
+    text-align: right;
+  }
+
+  ul {
+    list-style: disc;
+    margin: 0 0 1em 2em;
+  }
+
+  .section {
+    padding: 0 2em 0 0;
+    margin-bottom: 3em;
+  }
+
+  .subsection {
+    position: relative;
+    margin-bottom: 1.667em;
+
+    h2 {
+      margin: 0;
+    }
+    h3 {
+      margin-bottom: 0.667em;
+    }
+    h4 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0.333em 0.667em;
+      background-color: #ddd;
+      border: 1px solid #ccc;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  ul#contacts {
+    list-style: none;
+    margin: 0;
+
+    li > label {
+      display: block;
+      float: left;
+      width: 4em;
+      font-weight: bold;
+    }
+
+    em {
+      font-style: normal;
+      color: $blue;
+    }
+  }
+}
