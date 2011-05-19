@@ -176,11 +176,25 @@ p, .section, .subsection {
   #resume ul#contacts {
     list-style: none;
     margin: 0; }
-    #resume ul#contacts li > label {
-      display: block;
-      float: left;
+    #resume ul#contacts li {
+      position: relative;
+      padding-left: 4em;
+      padding-bottom: 0.667em;
+      font-size: 1.133em;
+      line-height: 1.45em;
       width: 4em;
-      font-weight: bold; }
+      white-space: nowrap;
+      overflow: visible; }
+      #resume ul#contacts li label {
+        display: block;
+        position: absolute;
+        right: 6em;
+        font-size: 0.765em;
+        color: white;
+        background-color: #0080b3;
+        border-radius: 1em;
+        padding: 0.267em 0.8em;
+        line-height: 1.333em; }
     #resume ul#contacts em {
       font-style: normal;
       color: #0080b3; }

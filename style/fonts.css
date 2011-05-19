@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'MuseoSlab';
+  src: url("fonts/Museo_Slab_500-webfont.eot");
+  src: url("fonts/Museo_Slab_500-webfont.eot?iefix") format("eot"), url("fonts/Museo_Slab_500-webfont.woff") format("woff"), url("fonts/Museo_Slab_500-webfont.ttf") format("truetype"), url("fonts/Museo_Slab_500-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Book-webfont.eot");
+  src: url("fonts/CartoGothicPro-Book-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Book-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Book-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Book-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Bold-webfont.eot");
+  src: url("fonts/CartoGothicPro-Bold-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Bold-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Bold-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Bold-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Italic-webfont.eot");
+  src: url("fonts/CartoGothicPro-Italic-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Italic-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Italic-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Italic-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: italic; }
