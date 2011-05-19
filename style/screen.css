@@ -1,0 +1,186 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u,
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+:focus {
+  outline: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'MuseoSlab';
+  src: url("fonts/Museo_Slab_500-webfont.eot");
+  src: url("fonts/Museo_Slab_500-webfont.eot?iefix") format("eot"), url("fonts/Museo_Slab_500-webfont.woff") format("woff"), url("fonts/Museo_Slab_500-webfont.ttf") format("truetype"), url("fonts/Museo_Slab_500-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Book-webfont.eot");
+  src: url("fonts/CartoGothicPro-Book-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Book-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Book-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Book-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Bold-webfont.eot");
+  src: url("fonts/CartoGothicPro-Bold-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Bold-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Bold-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Bold-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url("fonts/CartoGothicPro-Italic-webfont.eot");
+  src: url("fonts/CartoGothicPro-Italic-webfont.eot?iefix") format("eot"), url("fonts/CartoGothicPro-Italic-webfont.woff") format("woff"), url("fonts/CartoGothicPro-Italic-webfont.ttf") format("truetype"), url("fonts/CartoGothicPro-Italic-webfont.svg#webfontyumMOUTD") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+html {
+  font-family: 'CartoGothic',Helvetica,Sans-serif;
+  background-color: white;
+  color: black; }
+
+body {
+  font-size: 0.9375em;
+  margin-bottom: 2em; }
+
+a {
+  color: #0080b3;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+h1 {
+  font-family: 'MuseoSlab',Helvetica,Sans-serif;
+  color: #0080b3;
+  font-size: 1.467em;
+  font-weight: normal;
+  text-shadow: 0 1px 0 white; }
+
+h2 {
+  font-size: 1.133em;
+  margin: 0.333em 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); }
+
+h3, h4 {
+  font-size: 0.867em;
+  font-weight: normal;
+  font-style: italic;
+  color: #0080b3; }
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  color: black; }
+
+p, .section, .subsection {
+  margin-bottom: 1em;
+  line-height: 1.333em; }
+
+#page {
+  position: relative;
+  background: #f1f1f1;
+  border: 1px solid #dcdcdc;
+  border-top-width: 0;
+  width: 800px;
+  margin: 0 auto;
+  padding: 8.667em 1.667em 1.667em 1.667em;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); }
+  #page #banner {
+    position: absolute;
+    left: -39px;
+    top: 10px;
+    width: 300px;
+    height: 62px;
+    background: transparent url(/images/banner.png) no-repeat;
+    font-family: 'MuseoSlab',Helvetica,Sans-serif;
+    font-size: 1.667em;
+    color: white;
+    padding: 0.333em 0 0 2em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+  #page #contact {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    opacity: 0.25;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); }
+    #page #contact li {
+      float: left;
+      margin-left: 10px; }
+
+@media only screen and (max-device-width: 1024px) {
+  body {
+    margin: 0;
+    font-size: 1.25em; }
+
+  #page {
+    width: 100%; }
+    #page #banner {
+      background-image: url(/images/banner_ipad.png);
+      width: 375px;
+      left: -1px;
+      top: 0.4em;
+      padding-left: 0.333em; } }
+#resume {
+  position: relative;
+  padding-left: 11em; }
+  #resume h1 {
+    position: absolute;
+    left: 0;
+    width: 5.333em;
+    text-align: right; }
+  #resume ul {
+    list-style: disc;
+    margin: 0 0 1em 2em; }
+  #resume .section {
+    padding: 0 2em 0 0;
+    margin-bottom: 3em; }
+  #resume .subsection {
+    position: relative;
+    margin-bottom: 1.667em; }
+    #resume .subsection h2 {
+      margin: 0; }
+    #resume .subsection h3 {
+      margin-bottom: 0.667em; }
+    #resume .subsection h4 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0.333em 0.667em;
+      background-color: #ddd;
+      border: 1px solid #ccc;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+  #resume ul#contacts {
+    list-style: none;
+    margin: 0; }
+    #resume ul#contacts li > label {
+      display: block;
+      float: left;
+      width: 4em;
+      font-weight: bold; }
+    #resume ul#contacts em {
+      font-style: normal;
+      color: #0080b3; }
