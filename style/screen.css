@@ -123,13 +123,34 @@ p, .section, .subsection {
   #page #contact {
     position: absolute;
     top: 10px;
-    right: 25px;
-    opacity: 0.25;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50); }
+    right: 25px; }
     #page #contact li {
       float: left;
       margin-left: 10px; }
+      #page #contact li a {
+        display: block;
+        height: 48px;
+        width: 48px;
+        text-indent: -9999px;
+        opacity: 0.25;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+        filter: alpha(opacity=25); }
+        #page #contact li a:hover {
+          opacity: 1;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          filter: alpha(opacity=100); }
+        #page #contact li a#twitter {
+          background: url(../images/twitter.png); }
+          #page #contact li a#twitter:hover {
+            background: url(../images/twitter_hover.png); }
+        #page #contact li a#github {
+          background: url(../images/github.png); }
+          #page #contact li a#github:hover {
+            background: url(../images/github_hover.png); }
+        #page #contact li a#linkedin {
+          background: url(../images/linkedin.png); }
+          #page #contact li a#linkedin:hover {
+            background: url(../images/linkedin_hover.png); }
 
 @media only screen and (max-device-width: 1024px) {
   body {
