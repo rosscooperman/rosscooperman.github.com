@@ -101,24 +101,18 @@ p, .section, .subsection {
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
           filter: alpha(opacity=100);
         }
+        background: url(../images/contact_sprites.png);
 
-        &#twitter {
-          background: url(../images/twitter.png);
-          &:hover {
-            background: url(../images/twitter_hover.png);
-          }
+        &#github:hover {
+          background-position: 0 -48px;
         }
-        &#github {
-          background: url(../images/github.png);
-          &:hover {
-            background: url(../images/github_hover.png);
-          }
+        &#twitter {
+          background-position: -48px 0;
+          &:hover { background-position: -48px -48px; }
         }
         &#linkedin {
-          background: url(../images/linkedin.png);
-          &:hover {
-            background: url(../images/linkedin_hover.png);
-          }
+          background-position: -96px 0;
+          &:hover { background-position: -96px -48px; }
         }
       }
     }
