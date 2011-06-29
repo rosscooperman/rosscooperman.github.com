@@ -1,5 +1,5 @@
 auto: true
-exclude: [ 'rosscooperman.com.tmproj', 'CNAME', 'Gemfile', 'Gemfile.lock' ]
+exclude: [ 'rosscooperman.com.tmproj', 'CNAME', 'Gemfile', 'Gemfile.lock', 'artwork' ]
 lsi: false
 pygments: true
 safe: true
